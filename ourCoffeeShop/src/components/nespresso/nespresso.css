@@ -1,0 +1,89 @@
+@keyframes circle-in-top-right {
+  from {
+    clip-path: circle(0%);
+    background-color: transparent;
+  }
+  to {
+    clip-path: circle(150% at top right);
+    background-color: #190537eb;
+  }
+}
+#container {
+  margin-top: 60px;
+  margin-bottom: 40px;
+ 
+}
+.fuzetea-container {
+  animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-in-top-right both;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.fuzetea-bubble {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #7c6b94b6;
+  top: -40px; 
+  margin-bottom: 60px;
+}
+.fuzetea-bubble img{
+  border-radius: 50%;
+}
+
+
+.nespresso-logo {
+  width: 800px;
+  height: auto;
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #5a5552;
+  --color-2: #a6a6a6a5;
+  --color-3: #f9f9f9b9;
+}
+
+.title-word-2 {
+  --color-1: #a6a6a6a5;
+  --color-2: #5a5552;
+  --color-3: #f9f9f9b9;
+}
+
+.title-word-3 {
+  --color-1: #f9f9f9b9;
+  --color-2: #a6a6a6a5;
+  --color-3: #5a5552;
+}
+
+.title-word-4 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+  0% { color: var(--color-1) }
+  32% { color: var(--color-1) }
+  33% { color: var(--color-2) }
+  65% { color: var(--color-2) }
+  66% { color: var(--color-3) }
+  99% { color: var(--color-3) }
+  100% { color: var(--color-1) }
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 120px;
+  text-transform: uppercase;
+}
+

@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    margin-left: 110px; 
+  
+  }
+  
+  .line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    animation-duration: 1s;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(7, 1, 1, 0.3);
+    margin-right: 50px; 
+  }
+  
+  .line:hover{
+    background-color: aliceblue;
+  }
+  
+  .line:last-child {
+    margin-right: 0; 
+  }
+  
+    
+ 
+  .lineUp {
+    animation: 2s anim-lineUp ease-out ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  

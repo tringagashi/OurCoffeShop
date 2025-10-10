@@ -1,0 +1,180 @@
+.cover-slider {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.carousel .slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.video-section {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  opacity: 0;
+  animation: fade-in 1s forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #583a2a;
+  --color-2: #584c2d;
+  --color-3: #a3a767;
+}
+
+.title-word-2 {
+  --color-1: #d0910a;
+  --color-2: #3d3836;
+  --color-3: #695048;
+}
+
+.title-word-3 {
+  --color-1: #accfcb;
+  --color-2: #91825b;
+  --color-3: #5f3b2b;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
+}
+
+/* Here are visual styles. 🖌 */
+
+.container {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 200px;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 8.5vw;
+  text-transform: uppercase;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 40px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 700px;
+  height: 400px;
+  padding: 20px;
+}
+
+.slider-box {
+  flex: 1;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  margin-left: -110px;
+}
+
+.slider-container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.slider-box .carousel-root {
+  width:80%;
+  height: 80%;
+}
+
+.text-box h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.text-box p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.cover-section img {
+  width: 120px;
+  height: 200px;
+}
+
+.cover-section {
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}

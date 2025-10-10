@@ -1,0 +1,27 @@
+.footer{
+    background-color: #5b3f30; 
+  }
+  
+  .footer.active-fanta {
+    background-color:#5b3f30
+  }
+  
+  .footer.active-sprite {
+    background-color:#00A950 
+  }
+  
+
+  .footer.active-fuzetea{
+    background-color:#82ca9e
+  }
+  
+
+  .footer.active-schweppes {
+    background-color:#d1d422
+  }
+
+  .footer.active-ciel {
+    background-color:#1099bb
+  }
+
+

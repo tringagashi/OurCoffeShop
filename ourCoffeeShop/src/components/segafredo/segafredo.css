@@ -1,0 +1,12 @@
+.diet-coke-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  canvas {
+    display: block;
+    margin: -800px auto 0;
+  }
+  
