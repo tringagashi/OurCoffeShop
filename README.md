@@ -1,6 +1,8 @@
 # OurCoffeeShop ☕✨  
+A modern **React.js web application** built to simulate an online coffee shop experience.  
 
-A modern **React.js web application** built to simulate an online **coffee shop experience**, featuring interactive menus, product components, and a simple UI for browsing and ordering coffee.
+🧑‍🏫 This project was created during a **Full-Stack Development training program** with mentor guidance to practice real-world web development concepts.
+
 
 ---
 
